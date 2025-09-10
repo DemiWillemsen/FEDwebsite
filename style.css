@@ -1,0 +1,122 @@
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* jouw code */
+:root {
+	--sb-green: #00704a;
+	--sb-black: #000000;
+	--sb-white: #ffffff;
+	--sb-brown: #362415;
+	--sb-beige: #eac784;
+	--font-body: 'Montserrat', sans-serif;
+}
+
+body {
+	background-color: var(--sb-white);
+	color: var(--sb-black);
+	font-family: var(--font-body);
+}
+
+header {
+	background-color: var(--sb-green); 
+	color: var(--sb-white);
+	padding: 1rem 2rem;
+
+	display: flex;  /* flexbox voor horizontale layout */
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;  /* laat items naar de volgende regel op klein scherm */
+}
+
+header h1 {
+	font-family: var(--font-body);
+	font-size: 1.5rem;
+	margin: 0;
+}
+
+nav {
+	display: flex;
+	flex-wrap: wrap;  /* zodat de links niet buiten het scherm gaan op klein scherm */
+	gap: 1rem;
+}
+
+nav a {   /* de links */
+	color: var(--sb-white);
+	text-decoration: none;
+	margin-left: 1rem;
+	font-weight: bold;
+}
+
+nav a:hover {    /* als je over een link heen gaat */
+	text-decoration: underline;
+}
+
+/* media query voor de telefoon van de header en nav */
+@media (max-width: 600px) {
+	header {
+		flex-direction: column;  /* stapelt titel en nav op een klein scherm */
+		align-items: flex-start;
+	}
+
+	nav {
+		flex-direction: column;  /* stapelt de links onder elkaar */
+		width: 100%;
+	}
+
+	nav a {
+		margin: 0.25rem 0;  /* ruimte tussen de links */
+	}
+}
+
+main section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  background-color: var(--sb-beige);
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+main section > article {    /* tekstblok verticaal stapelen */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+main section h2 {   
+	font-family: var(--font-body);
+	font-size: 3rem;
+	margin: 0rem; 
+}
+
+main section p {
+	font-size: 1.5rem;
+	color: var(--sb-brown);
+	margin: 0;
+}
+
+main section img {
+	max-width: 50%;   /* = de helft van de breedte van het scherm */
+	height: auto;
+	border-radius: 1rem;   /* de ronde randen van de afbeelding */
+}
+
+/* media query van hero sectie voor de telefoon */
+@media (max-width: 600px) {
+  main section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  main section > article {
+    align-items: center;
+  }
+
+  main section img {
+    max-width: 100%;
+  }
+}

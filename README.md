@@ -16,7 +16,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  demi willemsen
+  Demi Willemsen
 
   #### Je startniveau:
   blauw
@@ -25,6 +25,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   surface plane
  
 </details>
+
 
 
 
@@ -46,7 +47,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/bezorg-pagina.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
-
 
 
 

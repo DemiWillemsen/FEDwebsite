@@ -101,10 +101,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | ...            | ...                | ...          | ...              |
 
   vragen van groepje:
-  melih: hoe maak ik mijn site responsive
-  bo: hoe maak ik een soort sarrousel met pijltjes, of dat met CSS of JS moet?
-  Eva: hoe kan ik mijn site stelen + implementeren in mijn html
-  mick: ziek
+  * melih: hoe maak ik mijn site responsive
+  * bo: hoe maak ik een soort sarrousel met pijltjes, of dat met CSS of JS moet?
+  * Eva: hoe kan ik mijn site stelen + implementeren in mijn html
+  * mick: ziek
+  * demi: hoe kan ik de kaart op een website gebruikbaar maken, dat je kan in en uitzoomen etc.
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen

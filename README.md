@@ -68,7 +68,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/Breakdown-schets.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="images/Breakdown-schets.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -89,6 +89,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
+  het was voornamelijk heel erg inkomen in de code. Ik ben er niet goed in, dus was het extra lastig. nadat ik eenmaal een opzetje had ging het redelijk. Wat goed ging is dat wat ik deed ik ook terug zag op mijn site, dus geen errors of iets dergelijks. wat ik lastig vind, blijft voornamelijk het netjes opstellen van een code.
 
 
   ### Agenda voor meeting

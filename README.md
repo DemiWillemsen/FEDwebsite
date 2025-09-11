@@ -68,7 +68,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Breakdown-schets.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -100,6 +100,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
+  vragen van groepje:
+  melih: hoe maak ik mijn site responsive
+  bo: hoe maak ik een soort sarrousel met pijltjes, of dat met CSS of JS moet?
+  Eva: hoe kan ik mijn site stelen + implementeren in mijn html
+  mick: ziek
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen

@@ -19,10 +19,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Demi Willemsen
 
   #### Je startniveau:
-  blauw
+  Blauw
 
   #### Je focus:
-  responsive
+  Responsive
  
 </details>
 
@@ -57,6 +57,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+
+  * De website maakt (te) veel gebruik van div's en classes etc. De code is niet netjes/semantisch.
+  * De website is erg overzichtelijk, en gebruiksvriendelijk als het gaat om de lay-out. De knoppen(buttons) zijn de juiste groote op de telefoon.
+  * Als je de website groter en kleiner maakt schuift alles op de juiste manier mee, niks blijft raar hangen of iets dergelijks.
+  * De website maakt vrijwel geen gebruik van H1's (dus niet op elke pagina komt een H1 voor), voornamelijk heel veel h2's.
+  * Niet elke img elements heeft een alt.
+  * De website maakt geen gebruik van a elementen voor links.
+  * Niet elke link is herkenbaar als link.
+  * De website maakt vrijwel geen gebruik van button elementen voor buttons.
+
 
 </details>
 
@@ -112,10 +122,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Ik weet nu hoe ik de kaart in kan laden op mijn website. 
+  - Ik weet nu dat veel websites svg gebruiken en zelf maken om icoontjes toe te passen op hun website. Dit ga ik zeker meenemen in mijn website, want starbucks maakt ook gebruik van svg icoontjes. Op die manier hoef ik niet moeilijk te doen met icoontjes zelf maken en inladen als png, want dat gaat uiteindelijk niet goed werken.
+  - Ik weet nu dat als je wilt dat de screenreader een woord op z'n engels uitspreekt, dat je er lang:"en" aan toe kan voegen. Op die manier word het woord op zijn Engels uitgesproken.
+  - Ik weet nu ook dat we op z'n minst 3 css stylepagina's moeten inleveren. 1 voor de basis, dus de kleuren, font, header en footer, want die zijn op elke pagina hetzelfde. 1 voor de main van de ene pagina, en 1 voor de main van de andere pagina.
 
 </details>
 

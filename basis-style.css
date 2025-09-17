@@ -1,0 +1,30 @@
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* jouw code */
+:root {
+	--starbucks-kenmerk: #00704a;
+	--kenmerk-accent: #006241;
+	--achtergrond-hoofd: #ffffff;
+	--tekst-hoofd: #000000;
+	--tekst-subtiel: #ffffff;
+	--koffie-kleur: #362415;
+	--font-body: 'Montserrat', sans-serif;
+}
+
+@media (prefers-color-scheme:dark) {  /* dit is voor de donkere modus */
+	:root {                           /* kleuren moeten een lichtere tint zijn van het origineel */
+	--starbucks-kenmerk: #00704a;
+	--kenmerk-accent: #006241;
+	--achtergrond-hoofd: #121212;   /* donker ipv wit */
+	--tekst-hoofd: #ffffff;         /* licht ipv zwart */
+	--tekst-subtiel: #cccccc;       /* subtiel grijs ipv wit */
+	--koffie-kleur: #d1b49c;        /* lichtere variant zodat hij zichtbaar blijft */
+	}
+}
+
+
+body {
+	font-family: var(--font-body);
+}

@@ -141,6 +141,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  Ik ben eigenlijk vooral bezig geweest met mijn HTML, allebei de pagina's. Ik wilde eerst die beide helemaal goed hebben voordat ik begon met mijn CSS. Want in mijn hoofd vond ik het fijner om eerst mijn HTML helemaal te begrijpen ipv HTML en dan weer CSS en dan weer terug naar HTML. Nu heb ik beide pagina's zo goed als af, alle inhoud wat op de officiele Starbucks website staat, staat nu ook in mijn HTML, dus nu zou ik aan de slag kunnen met CSS en JS. Wat ik lastig vond is hoe ik alles netjes opschrijf, dus als ik bijvoorbeeld een svg van de Starbucks website afhaalde, hoe ik dat dan netjes in mijn code kan verwerken, na veel proberen en vragen ben ik er uitgekomen gelukkig. Nu hoop ik, en denk ik, dat mijn HTML helemaal netjes is. Dat is dan ook de vraag die ik wil gaan stellen tijdens dit voortgangsgesprek. Zodra ik weet dat mijn HTML helemaal netjes is ga ik aan de slag met CSS en JS.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -151,6 +152,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
+  vragen van groepje:
+  * melih: Geen vraag
+  * bo: 
+  * Eva: Is mijn HTML netjes in elkaar gezet, en hoe zet ik mijn eerste sectie netjes in elkaar?
+  * mick: 
+  * demi: Is mijn HTML netjes in elkaar gezet?
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen

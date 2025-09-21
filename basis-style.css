@@ -3,10 +3,19 @@
 /****************/
 
 /* jouw code */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
 :root {
-	--starbucks-kenmerk: #00704a;
-	--kenmerk-accent: #006241;
-	--achtergrond-hoofd: #ffffff;
+	--starbucks-kenmerk: #006241;
+	--kenmerk-accent: #1e3932;
+	--achtergrond-home: #ffffff;
+	--achtergrond-onzekoffies: #eeeeee;
 	--tekst-hoofd: #000000;
 	--tekst-subtiel: #ffffff;
 	--koffie-kleur: #362415;
@@ -15,9 +24,10 @@
 
 @media (prefers-color-scheme:dark) {  /* dit is voor de donkere modus */
 	:root {                           /* kleuren moeten een lichtere tint zijn van het origineel */
-	--starbucks-kenmerk: #00704a;
-	--kenmerk-accent: #006241;
-	--achtergrond-hoofd: #121212;   /* donker ipv wit */
+	--starbucks-kenmerk: #006241;
+	--kenmerk-accent: #1e3932;
+	--achtergrond-home: #121212;   /* donker ipv wit */
+	--achtergrond-onzekoffies: #111111;
 	--tekst-hoofd: #ffffff;         /* licht ipv zwart */
 	--tekst-subtiel: #cccccc;       /* subtiel grijs ipv wit */
 	--koffie-kleur: #d1b49c;        /* lichtere variant zodat hij zichtbaar blijft */
@@ -25,6 +35,215 @@
 }
 
 
+
 body {
 	font-family: var(--font-body);
+	color: var(--tekst-hoofd);
+	padding-bottom: 75px;     /* zodat je de onderkant van de footer kan zien, anders zie je die niet */
+}
+
+
+/***************************/
+/******** de header ********/
+/***************************/
+header {
+	background-color: var(--achtergrond-home);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 2rem;
+	border-bottom: 1px solid #eee;
+}
+
+header svg {
+	width: 48px;
+	height: auto;
+}
+
+
+/***************************/
+/* Sticky footer navigatie */
+/***************************/
+nav[aria-label="Snelle navigatie"] {
+    position: fixed;       /* blijft onderaan het scherm */
+    bottom: 0;
+    left: 0;
+    width: 100%;           /* neemt hele breedte van het scherm */
+    background-color: var(--achtergrond-home);
+    border-top: 1px solid #eee; /* subtiel lijntje boven de footer */
+    padding: 0.5rem 0;     /* wat ruimte boven en onder */
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1); /* lichte schaduw boven */
+    z-index: 1000;         /* boven andere content */
+}
+
+/* De ul-items naast elkaar */
+nav[aria-label="Snelle navigatie"] ul {
+    display: flex;           /* nu staan de li’s naast elkaar */
+    justify-content: center; /* in het midden van de footer */
+    gap: 5rem;               /* ruimte tussen items */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Links in footer */
+nav[aria-label="Snelle navigatie"] a {
+    display: flex;
+    flex-direction: column; /* icoon boven tekst */
+    align-items: center;    /* alles in het midden */
+    text-decoration: none;
+    color: var(--tekst-hoofd);
+    font-size: 0.90rem;
+	padding-top: 0.75rem;
+}
+
+nav[aria-label="Snelle navigatie"] svg {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 0.25rem; /* ruimte tussen icoon en tekst */
+}
+
+nav[aria-label="Snelle navigatie"] a:hover {
+    color: var(--starbucks-kenmerk); /* bijvoorbeeld groen bij hover */
+}
+
+
+/***************************/
+/********* footer **********/
+/***************************/
+footer {
+	background-color: var(--kenmerk-accent);
+	color: var(--tekst-subtiel);
+	padding: 2rem 1rem 1rem 1rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	margin-top: 2.5rem;
+}
+
+footer svg {
+	width: 48px;
+	height: auto;
+	display: block;
+	margin: 0;
+}
+
+footer > section {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	text-align: left;
+}
+
+footer > nav {
+	border-top: 1px solid rgba(255, 255, 255, 0.3);
+	padding-top: 2rem;
+}
+
+footer details {
+	width: 100%;
+}
+
+footer details summary {
+	font-weight: 600;
+	cursor: pointer;
+	padding: 0.5rem 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	color: var(--tekst-subtiel);
+}
+
+/* verwijderd het standaard browser pijltje  v */
+footer details summary::-webkit-details-marker {   
+	display: none;
+}
+
+footer details[open] summary::after {
+	content: "▲";
+}
+
+footer details summary::after {
+	content: "▼";
+	margin-left: 0.5rem;
+}
+
+/* alles in de details summary */
+footer details ul {
+	list-style: none;
+	margin-top: 0.5rem;
+	padding-left: 0;
+}
+
+footer details ul li a {
+	text-decoration: none;
+	color: var(--tekst-subtiel);
+	font-size: 0.9rem;
+	display: block;
+	padding: 0.5rem 0;
+}
+
+footer details ul li a:hover {
+	color: var(--koffie-kleur);
+}
+
+/* de laatste 3 woorden onder aan de site */
+footer nav ul {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	padding: 0;
+	margin: 0;
+}
+
+ footer nav ul li a {
+	text-decoration: none;
+	color: var(--tekst-subtiel);
+	font-size: 0.8rem;
+ }
+
+ footer nav ul li a:hover {
+	color: var(--koffie-kleur);
+ }
+
+
+
+/***************************/
+/****** hamburgermenu ******/
+/***************************/
+button[aria-label="toggle menu"] {
+	background: none;
+	border: none;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	gap: 5px; 			/* de ruimte tussen de streepjes */
+	padding: 0.5rem;
+}
+
+button[aria-label="toggle menu"] span {
+	display: block;
+	width: 24px;
+	height: 2px;
+	background: var(--tekst-hoofd);
+	border-radius: 1px;
+}
+
+header nav:first-of-type {
+	display: none;
+	flex-direction: column;
+	gap: 1rem;
+	background-color: var(--achtergrond-home);
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	padding: 1rem 0;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header nav:first-of-type.toonMenu {
+    display: flex;
+	flex-direction: column;
 }

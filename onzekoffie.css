@@ -1,0 +1,88 @@
+/* jouw code */
+body {
+	background-color: var(--achtergrond-onzekoffies);
+}
+
+
+/************************/
+/****** herosectie ******/
+/************************/
+main > section:first-of-type {
+    position: relative;
+    text-align: left;
+    padding: 0;
+    max-width: 100%;
+    min-height: 600px;
+    overflow: hidden;
+}
+
+main > section:first-of-type img {
+    position: absolute;   /* Plaatst het element precies ten opzichte van het dichtstbijzijnde gepositioneerde ouder-element. */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* Zorgt dat een afbeelding het element volledig vult zonder de verhoudingen te vervormen, en snijdt bij waar nodig. */
+    z-index: -1;
+}
+
+/* de schaduw onder in de foto */
+main > section:first-of-type::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 400px; /* hoogte van de schaduw/fade */
+    background: linear-gradient(to top, rgba(30, 44, 30, 0.9), transparent);
+    pointer-events: none; /* zorgt dat het niet klikbaar is */
+    z-index: -1; /* onder de tekst en knoppen, boven de afbeelding */
+}
+
+
+main > section:first-of-type h1 {
+    position: absolute;
+    left: 2rem;
+    right: 2rem;
+    bottom: 11rem;
+    text-align: left;
+    color: var(--tekst-subtiel);
+    font-size: 1.2em;
+    margin: 0;
+}
+
+main > section:first-of-type a {
+    position: absolute;
+    left: 2rem;
+    right: 2rem;
+    display: block;
+    width: calc(100% - 4rem); /* Maakt de breedte van een element dynamisch door een berekening van verschillende eenheden te gebruiken */
+    margin: 0.5rem 1rem 0 0;
+    font-weight: 600;  
+    text-align: center;  
+    text-decoration: none;
+    border-radius: 150px;
+    padding: 0.8rem 0;
+}
+
+main > section:first-of-type a:first-of-type {
+    bottom: 7rem;
+    background-color: var(--achtergrond-home);
+    color: var(--tekst-hoofd);
+    border: none;
+}
+
+main > section:first-of-type a:first-of-type:hover {
+    opacity: 0.8; /* maakt de eerste a iets minder intens */
+}
+
+main > section:first-of-type a:last-of-type {
+    bottom: 3rem;
+    background-color: transparent;
+    color: var(--tekst-subtiel);
+    border: 2px solid var(--achtergrond-home);
+}
+
+main > section:first-of-type a:last-of-type:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* lichte witte overlay */
+}

@@ -256,6 +256,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   1. Alle foto's komen van de officiele starbucks site: https://www.starbucks.nl/nl
   2. De kaart op de homepagina: https://www.google.nl/maps/?hl=nl
-  3. 
+  3. Schaduw van de eerste afbeelding van de "onze koffies" pagina, geleerd via deze website: https://developer.mozilla.org/en-US/docs/Web/CSS/gradient
+  4. 
 
 </details>

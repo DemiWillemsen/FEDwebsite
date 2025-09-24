@@ -162,10 +162,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Ik weet nu dat mijn html goed in elkaar is gezet, en dat ik verder kan gaan met CSS opbouwen
+  - Ik weet nu dat het handig is om de website helemaal te verbeteren, op de onze koffies pagina van starbucks staat alles in principe in het nederlands tot je onder aan de pagina aankomt bij het stappenplan om zelf een koffie te maken, daar staat alles in het engels. Dus dat ga ik verbeteren naar het Nederlands zodat de hele pagina gewoon in het Nederlands staat. Dit stond eerst in het Engels in mijn html, omdat ik het exact had overgenomen van de website.
+  - Ook heb ik tips gekregen van de studentassistenten om te werken aan de h3 die onzichtbaar moet zijn in mijn footer. ik had daar eerst nog helemaal geen H-element, maar dat moet er wel in staan. Dus daar ga ik mee aan de slag.
+
 
 </details>
 

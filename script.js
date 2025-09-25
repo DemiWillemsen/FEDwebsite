@@ -1,7 +1,7 @@
 // JavaScript Document
 console.log("hi");
 
-///////////////////
+///////////////////  ///////////////////////////////////////////////////////////////////////////////////
 // hamburgermenu //
 ///////////////////
 var openButton = document.querySelector("header > button");
@@ -12,6 +12,9 @@ function openMenu() {
   var deNav = document.querySelector("nav");
   deNav.classList.toggle("toonMenu");
 }
+
+
+
 
 
 

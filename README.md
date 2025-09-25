@@ -195,6 +195,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  Wat ik lastig vond was een begin maken aan mijn CSS, maar nadat ik de oefeningen goed had doorgenomen kon ik een start maken. Nadat ik eenmaal de start had gemaakt verliep het allemaal wel soepel, hier en daar wat probleempjes maar na vragen aan de docent of zelf nog een keer goed kijken ging dat eigenlijk wel goed. Dus uiteindelijk zijn beide pagina's qua stijl helemaal goed. Waar ik nu nog tegen aan loop is dat ik het dus nog responsive moet maken, alleen dat vind ik nog wel erg lastig, dus daar moet ik nog even goed onderzoek naar doen en vragen hoe dat het beste kan.
+  Wat dus wel goed ging was het bezig zijn met CSS (naast het responsive maken), dat heb ik wel redelijk onder de knie nu. Wat ik wel nog steeds lastig blijg vinden is JS, ik vind het moeilijk om daar mee aan de slag te gaan, omdat ik daar het minste van weet (maar dat gaat uiteindelijk ook wel goed komen).
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -204,6 +206,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
+
+  vragen van groepje:
+  * melih: 
+  * bo: 
+  * Eva: 
+  * mick: 
+  * demi: Hoe maak ik mijn website op de beste manier responsive, en ziet mijn css er goed uit?
 
 
   ### Verslag van meeting
@@ -257,6 +266,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   1. Alle foto's komen van de officiele starbucks site: https://www.starbucks.nl/nl
   2. De kaart op de homepagina: https://www.google.nl/maps/?hl=nl
   3. Schaduw van de eerste afbeelding van de "onze koffies" pagina, geleerd via deze website: https://developer.mozilla.org/en-US/docs/Web/CSS/gradient
-  4. 
+  4. De details - summary heb ik gevraagd aan Sanne, en opgezocht op internet: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details
+  5. 
 
 </details>

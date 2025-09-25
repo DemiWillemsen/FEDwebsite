@@ -10,7 +10,9 @@
 }
 
 
-
+/****************/  /************************************************************************************/
+/** Huisstijl ***/  
+/****************/
 :root {
 	--starbucks-kenmerk: #006241;
 	--starbucks-kenmerk-transparent: color-mix(in srgb, var(--starbucks-kenmerk) 20%, transparent 80%);
@@ -26,19 +28,22 @@
 
 @media (prefers-color-scheme:dark) {  /* dit is voor de donkere modus */
 	:root {                           /* kleuren moeten een lichtere tint zijn van het origineel */
-	--starbucks-kenmerk: #006241;
+	--starbucks-kenmerk: #005136;
+	--starbucks-kenmerk-transparent: color-mix(in srgb, var(--starbucks-kenmerk) 20%, transparent 80%);
 	--kenmerk-accent: #1e3932;
-	--achtergrond-home: #121212;   /* donker ipv wit */
-	--achtergrond-onzekoffies: #222222;
-	--tekst-hoofd: #ffffff;         /* licht ipv zwart */
-	--tekst-subtiel: #ffffff;       /* subtiel grijs ipv wit */
+	--achtergrond-home: #2e2e2e;  
+	--achtergrond-onzekoffies: #5d5d5d;
+	--tekst-hoofd: #ffffff;      
+	--tekst-subtiel: #ffffff;       
 	--tekst-informatie: #ffffff;
-	--koffie-kleur: #d1b49c;        /* lichtere variant zodat hij zichtbaar blijft */
+	--koffie-kleur: #d1b49c;        
 	}
 }
 
 
-
+/****************/  /***********************************************************************************/
+/* gehele body **/  
+/****************/
 body {
 	font-family: var(--font-body);
 	color: var(--tekst-hoofd);
@@ -46,8 +51,8 @@ body {
 }
 
 
-/***************************/
-/******** de header ********/
+/***************************/  /************************************************************************/
+/******** de header ********/  
 /***************************/
 header {
 	background-color: var(--achtergrond-home);
@@ -64,8 +69,8 @@ header svg {
 }
 
 
-/***************************/
-/* Sticky footer navigatie */
+/***************************/  /************************************************************************/
+/* Sticky footer navigatie */  
 /***************************/
 nav[aria-label="Snelle navigatie"] {
     position: fixed;       /* blijft onderaan het scherm */
@@ -111,8 +116,8 @@ nav[aria-label="Snelle navigatie"] a:hover {
 }
 
 
-/***************************/
-/********* footer **********/
+/***************************/  /************************************************************************/
+/********* footer **********/  
 /***************************/
 footer {
 	background-color: var(--kenmerk-accent);
@@ -191,7 +196,7 @@ footer details ul {
 
 footer details ul li a {
 	text-decoration: none;
-	color: #c5c5c5cc;        /* heeft nog geen eigen kleur in de :root */
+	color: var(--tekst-informatie);       
 	font-size: 0.9rem;
 	display: block;
 	padding: 0.5rem 0;
@@ -213,7 +218,7 @@ footer nav ul {
 
  footer nav ul li a {
 	text-decoration: none;
-	color: #c5c5c5cc;
+	color: var(--tekst-informatie);
 	font-size: 0.8rem;
 	font-weight: 600;
 }
@@ -222,10 +227,18 @@ footer nav ul {
 	color: var(--koffie-kleur);
  }
 
+/* de icoontjes van apps */ 
+footer > section:last-of-type {    
+	display: flex;
+	flex-direction: row;
+	color: var(--tekst-subtiel);
+	width: 35px;
+	gap: 2rem;
+}
 
 
-/***************************/
-/****** hamburgermenu ******/
+/***************************/  /************************************************************************/
+/****** hamburgermenu ******/  
 /***************************/
 button {
 	background: none;
@@ -244,6 +257,7 @@ button > span {
 	background: var(--tekst-hoofd);
 	border-radius: 1px;
 }
+
 
 /* overgenomen van opdracht */
 header nav:first-of-type {
@@ -282,7 +296,6 @@ header nav:first-of-type svg {
 	width: 30px;
     height: 30px;
 }
-
 
 header nav:first-of-type details summary {
 	font-size: 1.2rem;

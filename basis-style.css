@@ -22,6 +22,7 @@
 	--tekst-hoofd: #000000;
 	--tekst-subtiel: #ffffff;
 	--tekst-informatie: #6d6d6d;
+	--tekst-footer: #9b9b9b;
 	--koffie-kleur: #362415;
 	--font-body: 'Montserrat', sans-serif;
 }
@@ -36,6 +37,7 @@
 	--tekst-hoofd: #ffffff;      
 	--tekst-subtiel: #ffffff;       
 	--tekst-informatie: #ffffff;
+	--tekst-footer: #9b9b9b;
 	--koffie-kleur: #d1b49c;        
 	}
 }
@@ -195,7 +197,7 @@ footer details ul {
 
 footer details ul li a {
 	text-decoration: none;
-	color: var(--tekst-informatie);       
+	color: var(--tekst-footer);       
 	font-size: 0.9rem;
 	display: block;
 	padding: 0.5rem 0;
@@ -217,7 +219,7 @@ footer nav ul {
 
  footer nav ul li a {
 	text-decoration: none;
-	color: var(--tekst-informatie);
+	color: var(--tekst-footer);
 	font-size: 0.8rem;
 	font-weight: 600;
 }

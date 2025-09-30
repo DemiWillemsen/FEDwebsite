@@ -356,3 +356,152 @@ main > section:nth-of-type(7) a {
 /************************/  /************************************************************************/
 /** responsive laptop ***/
 /************************/
+@media (min-width: 48em) {
+	/************************/  /************************************************************************/
+	/****** herosectie ******/  
+	/************************/
+	main > section:first-of-type {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 2rem;
+		background-color: var(--starbucks-kenmerk);
+		border-radius: 8px;
+		max-width: 1100px;
+		margin: 2rem auto;
+		min-height: 300px;
+	}
+
+	main > section:first-of-type h1,
+  	main > section:first-of-type a {
+		text-align: left;
+	 	align-self: flex-start;  
+  	}
+
+	main > section:first-of-type h1 {
+		font-size: 2rem;
+		font-weight: 700;
+		color: var(--tekst-subtiel);
+		margin-top: 7rem;
+	}
+
+	main > section:first-of-type a {
+		padding: 1rem 3rem;
+		font-size: 1rem;
+		background-color: var(--achtergrond-home);
+		color: var(--tekst-hoofd);
+		text-decoration: none;
+		border-radius: 150px;
+		font-weight: 600;
+		margin-left: 1rem;
+	}
+
+	main > section:first-of-type img {	
+		max-width: 700px;
+		border-radius: 0 8px 8px 0;		
+		margin-left: auto;
+		margin-top: -16.4rem;
+	}
+
+	/************************/  /************************************************************************/
+	/***** sectie 23456 *****/  
+	/************************/
+   	main {
+    	margin-top: 2rem; /* witruimte onder hero */
+		max-width: 1132px;
+		margin-left: auto;
+		margin-right: auto;
+  	}
+
+ 	/* Alleen secties 2 t/m 6 naast elkaar zetten */
+ 	main > section:nth-of-type(n+2):nth-of-type(-n+6) {
+		margin-top: 2rem; /* witruimte onder hero */
+		max-width: 1132px;
+		margin-left: auto;
+		margin-right: auto;
+ 		display: inline-block;
+    	vertical-align: top;
+    	width: calc(50% - 2rem); /* helft van de breedte minus gap */
+    	margin: 0.93rem;          /* kleine ruimte tussen de blokken */
+    	min-height: 525px;       /* gelijke hoogte */
+		box-sizing: border-box;
+  	}
+
+  	main > section:nth-of-type(n+2):nth-of-type(-n+6) img {
+    	width: 100%;
+    	height: auto;
+    	border-radius: 8px 8px 0 0;
+  	}
+
+  	/* Laatste sectie apart onderaan, hero niet aanpassen */
+  	main > section:last-of-type {
+    	max-width: 1100px;
+    	margin: 2rem auto;
+    	padding: 2rem;
+    	background-color: var(--starbucks-kenmerk);
+    	border-radius: 8px;
+    	display: flex;
+    	flex-direction: column;
+    	gap: 1rem;
+  	}
+
+	main > section:nth-of-type(n+2):nth-of-type(-n+6) h2 {
+    	font-size: 1.4rem;
+    	font-weight: 600;
+    	margin: 1rem;
+	}
+
+	
+	main > section:nth-of-type(n+2):nth-of-type(-n+6) a {
+    	display: inline-block;
+    	margin-top: 2rem;
+		margin-left: 1rem;
+    	padding: 0.9rem 1.5rem;
+    	text-decoration: none;
+    	border-radius: 150px;
+    	font-weight: 600;
+    	text-align: center;
+	}
+
+	main > section:nth-of-type(n+2):nth-of-type(-n+6) p {
+		font-size: 1rem;
+	}
+
+	/************************/  /************************************************************************/
+	/******* sectie 7  ******/  
+	/************************/
+	main > section:last-of-type {
+		margin-bottom: 4.5rem;
+	}
+
+	main > section:last-of-type iframe {
+		margin-left: auto;
+		max-width: 550px;
+		height: 450px;
+		margin-top: -2rem;
+		margin-right: -2rem;
+		margin-bottom: -1rem;
+		border-radius: 0 8px 8px 0;
+	}
+
+	main > section:last-of-type	h2,
+	main > section:last-of-type p,
+	main > section:last-of-type a {
+		margin-left: 0;
+	}
+
+	main > section:last-of-type	h2 {
+		margin-top: -26rem;
+		font-size: 2rem;
+	}
+
+	main > section:last-of-type	p {
+		font-size: 1rem;
+	}
+
+	main > section:last-of-type a {
+		margin-top: 14rem;
+		padding: 1rem 1.3rem;
+	}
+
+}

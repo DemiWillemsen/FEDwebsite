@@ -268,6 +268,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   3. Schaduw van de eerste afbeelding van de "onze koffies" pagina, geleerd via deze website: https://developer.mozilla.org/en-US/docs/Web/CSS/gradient
   4. De details - summary heb ik gevraagd aan Sanne, en opgezocht op internet: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details
   5. Voor de details in de footer heb ik via deze website geleerd wat ik moest doen in JS om ervoor te zorgen dat de details standaard open staan op groot scherm, zodat het responsive goed werkt. dit is de link: https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia
-  6. 
+  6. Om elementen naast elkaar te krijgen heb ik via deze bron informatie opgezocht: https://developer.mozilla.org/en-US/docs/Web/CSS/flex . deze informatie heb ik vooral toegepast op de onze koffies pagina, want daar moesten de koffies naast elkaar komen te staan, en ik kwam er zelf echt niet uit hoe ik dat moest doen.
 
 </details>

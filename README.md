@@ -267,6 +267,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   2. De kaart op de homepagina: https://www.google.nl/maps/?hl=nl
   3. Schaduw van de eerste afbeelding van de "onze koffies" pagina, geleerd via deze website: https://developer.mozilla.org/en-US/docs/Web/CSS/gradient
   4. De details - summary heb ik gevraagd aan Sanne, en opgezocht op internet: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details
-  5. 
+  5. Voor de details in de footer heb ik via deze website geleerd wat ik moest doen in JS om ervoor te zorgen dat de details standaard open staan op groot scherm, zodat het responsive goed werkt. dit is de link: https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia
+  6. 
 
 </details>

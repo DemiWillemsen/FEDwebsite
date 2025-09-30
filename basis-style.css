@@ -21,7 +21,7 @@
 	--achtergrond-onzekoffies: #f4f4f4;
 	--tekst-hoofd: #000000;
 	--tekst-subtiel: #ffffff;
-	--tekst-informatie: #545454;
+	--tekst-informatie: #6d6d6d;
 	--koffie-kleur: #362415;
 	--font-body: 'Montserrat', sans-serif;
 }
@@ -121,11 +121,24 @@ nav[aria-label="Snelle navigatie"] a:hover {
 /***************************/
 footer {
 	background-color: var(--kenmerk-accent);
-	padding: 2rem 1rem 1rem 1rem;
+	padding: 2rem 1.2rem 1.2rem 1.2rem;
 	display: flex;
 	flex-direction: column;
 	gap: 1.5rem;
 	margin-top: 2.5rem;
+}
+
+footer svg:first-of-type {
+	width: 48px;
+	height: auto;
+	display: block;
+	margin: 0;
+}
+
+footer > article {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
 }
 
 footer h3 {
@@ -140,22 +153,8 @@ footer h3 {
 	white-space: nowrap;
 }
 
-footer svg {
-	width: 48px;
-	height: auto;
-	display: block;
-	margin: 0;
-}
-
-footer > section {
-	display: flex;
-	flex-direction: column;
-	gap: 0.5rem;
-	text-align: left;
-}
-
-footer > nav {
-	border-top: 0.1px solid rgba(179, 178, 178, 0.638);
+footer article > nav {
+	border-top: 0.01px solid rgb(64, 82, 59);
 	padding-top: 1.5rem;
 }
 
@@ -228,12 +227,12 @@ footer nav ul {
  }
 
 /* de icoontjes van apps */ 
-footer > section:last-of-type {    
+footer > article > section:last-of-type {    
 	display: flex;
 	flex-direction: row;
+	gap: 1.1rem;
 	color: var(--tekst-subtiel);
 	width: 35px;
-	gap: 2rem;
 }
 
 
@@ -319,4 +318,170 @@ header nav:first-of-type details[open] summary::after {
 header nav:first-of-type details summary::after {
 	content: "▼";
 	margin-left: 0.5rem;
+}
+
+
+
+/************************/  /************************************************************************/
+/** responsive laptop ***/
+/************************/
+@media (min-width: 48em) {
+	body {
+		padding-bottom: 0;
+	}
+
+	/*************************/  /*******************************************************************/
+	/******* de header *******/
+	/*************************/	
+	header > button {     
+		display: none;             /* verbergt het hamburger menu knop */
+	}
+
+	header {
+		padding-left: 2.5rem;
+		padding-right: 3.5rem;
+	}
+
+	header svg {
+		width: 60px;
+		margin-left: 2rem;
+	}
+
+	header nav:first-of-type {
+		position: static;
+		translate: none;
+    	display: flex;              /* belangrijkste: laat de twee <ul> naast elkaar staan */
+   	 	align-items: center;   
+    	gap: 1rem;              
+    	width: 100%;
+	}
+
+	header nav:first-of-type ul {
+   	 	list-style: none;
+    	margin: 0;
+    	padding: 0;
+    	display: flex;           
+    	flex-direction: row;
+		margin-left: 4.5rem; 
+    	gap: 2rem;                 /* ruimte tussen de links */
+    	align-items: center;      
+  	}
+
+  	header nav:first-of-type ul:first-of-type {
+    	flex: 1;                    
+    	justify-content: flex-start;
+ 	}	
+
+	header nav:first-of-type ul:first-of-type li a {
+		font-size: 1rem;
+		font-weight: 600;
+	}
+
+	header nav:first-of-type ul:last-of-type {
+    	justify-content: flex-end; 
+		margin-right: 2rem;
+		padding-right: 2rem;
+ 	}
+ 
+	header nav:first-of-type ul:last-of-type li a,
+	header nav:first-of-type details summary {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.3rem;		
+		font-size: 0.85rem;
+		font-weight: 500;
+	}
+	
+	header nav:first-of-type details ul {
+    	position: absolute;
+    	margin-top: 0.4rem;         /* kleine ruimte onder summary */
+    	background: var(--achtergrond-home);
+    	padding: 0.6rem;            /* binnenruimte dropdown */
+    	border: 1px solid rgba(0,0,0,0.06);
+    	border-radius: 4px;
+    	box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    	display: flex;
+    	flex-direction: column;
+    	gap: 0.25rem;
+    	z-index: 2000;
+    	min-width: max-content;     /* dropdown past zich aan aan inhoud */
+ 	}
+	
+	/* sticky footer verbergen voor groot scherem */
+	nav[aria-label="Snelle navigatie"] {
+		display: none;
+	}
+}
+
+
+/*************************/  /*******************************************************************/
+/******* de footer *******/
+/*************************/	
+@media (min-width: 48em) {
+	footer {
+		display: flex;
+		flex-direction: row;
+		gap: 4.5rem;
+		align-items: flex-start;
+		padding: 3rem 4.5rem;
+		padding-right: 35rem;
+		padding-bottom: 12rem;
+	}
+
+	footer > svg:first-of-type {
+		width: 65px;
+		height: auto;
+		flex-shrink: 0;
+	}
+
+	footer > article {
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+		flex: 1;
+	}
+
+	footer > article > section:first-of-type {
+		display: flex;
+		flex-direction: row;
+		gap: 3rem;
+	}
+
+	footer > article nav ul {
+		display: flex;
+		flex-direction: row;
+		margin-top: 3rem;
+		gap: 2rem;
+	}
+
+	footer > article > section:last-of-type {
+		width: 30px;
+		display: flex;
+		flex-direction: row;
+		gap: 1.5rem;
+		margin-top: -1rem;
+	}
+
+	footer details {
+		display: block;
+	}
+
+	footer details summary {
+		cursor: default;
+		pointer-events: none;
+	}
+
+	footer details summary::after,
+	footer details[open] summary::after {    /* maakt de pijltjes onzichtbaar */
+    	visibility: hidden;
+	}
+
+	footer details summary::-webkit-details-marker {
+   		display: none;
+	}
+
+	footer details ul {
+		display: block;
+		margin-top: 0.5rem;
+	}
 }

@@ -68,7 +68,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   * Niet elke link is herkenbaar als link.
   * De website maakt vrijwel geen gebruik van button elementen voor buttons.
 
-
 </details>
 
 
@@ -79,7 +78,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/Breakdown-schets.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Breakdown-schets.png" width="375px" alt="breakdownschets van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -209,9 +208,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | ...            | ...                | ...          | ...              |
 
   vragen van groepje:
-  * melih: 
+  * melih: Is mijn HTML en CSS goed?
   * bo: 
-  * Eva: 
+  * Eva: IS de div in mijn code goed gebruikt? en kan ik de video in mijn header op pauze laten zetten?
   * mick: 
   * demi: Hoe maak ik mijn website op de beste manier responsive, en ziet mijn css er goed uit?
 
@@ -219,10 +218,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Ik weet nu hoe ik mijn website responsive kan gaan maken.
+  - Ik weet nu dat ik de tekst in mijn footer een iets lichtere kleur grijs moet geven, en een witte hover moet geven.
+  - Ik weet nu dat mijn HTML en CSS code er prima uitzien.
+  - Na dit gesprek weet ik dat ik redelijk goed op weg ben, dat ik mij kan gaan focussen op het responsive maken van de website en dat ik nog een aantal kleine dingen moet gaan bijwerken/toevoegen op smallscreen, met de CSS code.
 
 </details>
 

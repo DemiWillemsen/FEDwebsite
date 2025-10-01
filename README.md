@@ -166,7 +166,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Ik weet nu dat het handig is om de website helemaal te verbeteren, op de onze koffies pagina van starbucks staat alles in principe in het nederlands tot je onder aan de pagina aankomt bij het stappenplan om zelf een koffie te maken, daar staat alles in het engels. Dus dat ga ik verbeteren naar het Nederlands zodat de hele pagina gewoon in het Nederlands staat. Dit stond eerst in het Engels in mijn html, omdat ik het exact had overgenomen van de website.
   - Ook heb ik tips gekregen van de studentassistenten om te werken aan de h3 die onzichtbaar moet zijn in mijn footer. ik had daar eerst nog helemaal geen H-element, maar dat moet er wel in staan. Dus daar ga ik mee aan de slag.
 
-
 </details>
 
 
@@ -213,7 +212,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   * Eva: IS de div in mijn code goed gebruikt? en kan ik de video in mijn header op pauze laten zetten?
   * mick: 
   * demi: Hoe maak ik mijn website op de beste manier responsive, en ziet mijn css er goed uit?
-
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -269,5 +267,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   4. De details - summary heb ik gevraagd aan Sanne, en opgezocht op internet: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details
   5. Voor de details in de footer heb ik via deze website geleerd wat ik moest doen in JS om ervoor te zorgen dat de details standaard open staan op groot scherm, zodat het responsive goed werkt. dit is de link: https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia
   6. Om elementen naast elkaar te krijgen heb ik via deze bron informatie opgezocht: https://developer.mozilla.org/en-US/docs/Web/CSS/flex . deze informatie heb ik vooral toegepast op de onze koffies pagina, want daar moesten de koffies naast elkaar komen te staan, en ik kwam er zelf echt niet uit hoe ik dat moest doen.
+  7. Om van 3 streepjes, een kruisje te maken voor mijn hamburgermenu heb ik via deze bron informatie opgehaald: https://codepen.io/james2doyle/pen/edNoPe?utm_source=chatgpt.com
 
 </details>

@@ -257,7 +257,24 @@ button > span {
 	border-radius: 1px;
 }
 
-/* overgenomen van opdracht */
+/* de 3 streepjes naar kruisje code */
+button.open span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+button.open span:nth-child(2) {
+  opacity: 0;  /* middelste streepje verdwijnt op deze manier */
+}
+
+button.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+button span {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* overgenomen van de oefenopdracht */
 header nav:first-of-type {
 	position: fixed;
 	left: 0;
@@ -291,8 +308,8 @@ header nav:first-of-type ul li a {
 
 header nav:first-of-type svg {
 	margin-top: 1rem;
-	width: 30px;
-    height: 30px;
+	width: 25px;
+    height: 25px;
 }
 
 header nav:first-of-type details summary {
@@ -301,7 +318,6 @@ header nav:first-of-type details summary {
 	padding: 0.5rem 0;
 	list-style: none;
 	display: flex;
-	justify-content: space-between;
 	color: var(--tekst-hoofd);
 }
 
@@ -318,7 +334,6 @@ header nav:first-of-type details summary::after {
 	content: "▼";
 	margin-left: 0.5rem;
 }
-
 
 
 /************************/  /************************************************************************/

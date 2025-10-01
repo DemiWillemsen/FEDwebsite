@@ -5,7 +5,7 @@ body {
 
 
 /************************/  /************************************************************************/
-/****** herosectie ******/  
+/****** herosectie ******/  /* afbeelding met knoppen erin */
 /************************/
 main > section:first-of-type {
     position: relative;
@@ -17,12 +17,12 @@ main > section:first-of-type {
 }
 
 main > section:first-of-type img {
-    position: absolute;   /* Plaatst het element precies ten opzichte van het dichtstbijzijnde gepositioneerde ouder-element. */
+    position: absolute;   
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;  /* Zorgt dat een afbeelding het element volledig vult zonder de verhoudingen te vervormen, en snijdt bij waar nodig. */
+    object-fit: cover;  
     z-index: -1;
 }
 
@@ -33,12 +33,11 @@ main > section:first-of-type::after {
     left: 0;
     right: 0;
     bottom: 0;
-    height: 400px; /* hoogte van de schaduw */
+    height: 400px;   /* hoogte van de schaduw */
     background: linear-gradient(to top, rgba(30, 44, 30, 0.9), transparent);
-    pointer-events: none; /* zorgt dat het niet klikbaar is */
-    z-index: -1; /* onder de tekst en knoppen, boven de afbeelding */
+    pointer-events: none;   /* zorgt dat het niet klikbaar is */
+    z-index: -1;    /* onder de tekst en knoppen, en boven de afbeelding */
 }
-
 
 main > section:first-of-type h1 {
     position: absolute;
@@ -56,7 +55,7 @@ main > section:first-of-type a {
     left: 2rem;
     right: 2rem;
     display: block;
-    width: calc(100% - 4rem); /* Maakt de breedte van een element dynamisch door een berekening van verschillende eenheden te gebruiken */
+    width: calc(100% - 4rem); 
     margin: 0.5rem 1rem 0 0;
     font-weight: 600;  
     text-align: center;  
@@ -146,7 +145,7 @@ main > article >  section:nth-of-type(2) a {
 
 
 /************************/  /************************************************************************/
-/**** de 3de sectie *****/
+/**** de 3de sectie *****/  /* koffiesoort */
 /************************/
 main > article > section:nth-of-type(3) {
     padding: 2rem 1.5rem;
@@ -186,7 +185,7 @@ main > article > section:nth-of-type(4) a:hover {
 
 
 /************************/  /************************************************************************/
-/**** de 4de sectie *****/
+/**** de 4de sectie *****/  /* koffiesoort */
 /************************/
 main > article > section:nth-of-type(4) {
     padding: 2rem 1.5rem;
@@ -226,7 +225,7 @@ main > article > section:nth-of-type(4) a:hover {
 
 
 /************************/  /************************************************************************/
-/**** de 5de sectie *****/
+/**** de 5de sectie *****/  /* koffiesoort */
 /************************/
 main > article > section:nth-of-type(5) {
     padding: 2rem 1.5rem;
@@ -266,7 +265,7 @@ main > article > section:nth-of-type(5) a:hover {
 
 
 /************************/  /************************************************************************/
-/**** de 6de sectie *****/
+/**** de 6de sectie *****/  /* koffiesoort */
 /************************/
 main > article > section:nth-of-type(6) {
     padding: 2rem 1.5rem;
@@ -306,7 +305,7 @@ main > article > section:nth-of-type(6) a:hover {
 
 
 /************************/  /************************************************************************/
-/**** de 7de sectie *****/
+/**** de 7de sectie *****/  /* koffiesoort */
 /************************/
 main > article > section:nth-of-type(7) {
     padding: 2rem 1.5rem;
@@ -346,7 +345,7 @@ main > article > section:nth-of-type(7) a:hover {
 
 
 /************************/  /************************************************************************/
-/**** de 8ste sectie ****/
+/**** de 8ste sectie ****/  /* koffiesoort */
 /************************/
 main > article > section:nth-of-type(8) {
     padding: 2rem 1.5rem;
@@ -386,7 +385,7 @@ main > article > section:nth-of-type(8) a:hover {
 
 
 /************************/  /************************************************************************/
-/**** de 9de sectie ****/
+/**** de 9de sectie *****/  /* koffiesoort */
 /************************/
 main > article > section:nth-of-type(9) {
     padding: 2rem 1.5rem;
@@ -426,7 +425,7 @@ main > article > section:nth-of-type(9) a:hover {
 
 
 /************************/  /************************************************************************/
-/**** de 10de sectie ****/
+/**** de 10de sectie ****/  /* koffiesoort */
 /************************/
 main > article > section:nth-of-type(10) {
     padding: 2rem 1.5rem;
@@ -466,7 +465,7 @@ main > article > section:nth-of-type(10) a:hover {
 
 
 /************************/  /************************************************************************/
-/**** de 11de sectie ****/
+/**** de 11de sectie ****/  /* koffiesoort */
 /************************/
 main > article > section:nth-of-type(11) {
     padding: 2rem 1.5rem;
@@ -506,7 +505,7 @@ main > article > section:nth-of-type(11) a:hover {
 
 
 /************************/  /************************************************************************/
-/**** de 12de sectie ****/
+/**** de 12de sectie ****/  /* koffiesoort */
 /************************/
 main > article > section:nth-of-type(12) {
     padding: 2rem 1.5rem;
@@ -546,7 +545,7 @@ main > article > section:nth-of-type(12) a:hover {
 
 
 /************************/  /************************************************************************/
-/**** de 13de sectie ****/
+/**** de 13de sectie ****/  /* koffiesoort */
 /************************/
 main > article > section:nth-of-type(13) {
     padding: 2rem 1.5rem;
@@ -586,7 +585,7 @@ main > article > section:nth-of-type(13) a:hover {
 
 
 /************************/  /************************************************************************/
-/**** de 14de sectie ****/
+/**** de 14de sectie ****/  /* hoe maak je de perfecte kop koffie */
 /************************/
 main > article > section:nth-of-type(14) {
     padding: 2rem 1.5rem;
@@ -611,7 +610,7 @@ main > article > section:nth-of-type(14) p {
 
 
 /************************/  /************************************************************************/
-/**** de 15de sectie ****/
+/**** de 15de sectie ****/  /* koffie pers */
 /************************/
 main > article > section:nth-of-type(15) {
     display: flex;
@@ -649,7 +648,7 @@ main > article > section:nth-of-type(15) article {
 
 
 /************************/  /************************************************************************/
-/**** de 16de sectie ****/
+/**** de 16de sectie ****/  /* overgieten */
 /************************/
 main > article > section:nth-of-type(16) {
     display: flex;
@@ -687,7 +686,7 @@ main > article > section:nth-of-type(16) article {
 
 
 /************************/  /************************************************************************/
-/**** de 17de sectie ****/
+/**** de 17de sectie ****/  /* ijskoud overgieten */
 /************************/
 main > article > section:nth-of-type(17) {
     display: flex;
@@ -725,7 +724,7 @@ main > article > section:nth-of-type(17) article {
 
 
 /************************/  /************************************************************************/
-/**** de 18de sectie ****/
+/**** de 18de sectie ****/  /* koffiebrouwer */
 /************************/
 main > article > section:nth-of-type(18) {
     display: flex;
@@ -773,7 +772,9 @@ main > article > section:nth-of-type(18) article {
         align-items: flex-start;
     }
 
-    /* Sticky hero sectie aan de linkerkant */
+    /************************/  /************************************************************************/
+    /***** sticky links *****/  /* afbeelding met knoppen aan linkerkant */
+    /************************/
     main > section:first-of-type {
         position: sticky;
         top: 0;                     
@@ -799,41 +800,53 @@ main > article > section:nth-of-type(18) article {
     }
 
     /************************/  /************************************************************************/
-    /***** 1ste sectie ******/
+    /***** 1ste sectie ******/  /* Onze Koffie */
     /************************/
+    main > article > section:first-of-type {
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin-right: 5rem;
+    }
+
     main > article > section:first-of-type h2 {
         font-size: 2.3rem;
     }
 
     main > article > section:first-of-type p {
-        font-size: 1rem;
+        font-size: 1.1rem;
         max-width: 100%;
         line-height: 1.35rem;
     }
 
     /************************/  /************************************************************************/
-    /******* 2e sectie ******/
+    /******* 2e sectie ******/  /* Het starbucks roast spectrum */
     /************************/
+    main > article > section:nth-of-type(2) {
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin-right: 5rem;
+    }
+
     main > article > section:nth-of-type(2) h2 {
         font-size: 1.8rem;
         margin-top: -1.5rem;
     }
 
     main > article > section:nth-of-type(2) p {
-        font-size: 1rem;
+        margin-top: 0.7rem;
+        font-size: 1.1rem;
         max-width: 100%;
         line-height: 1.35rem;
     }
 
     /************************/  /************************************************************************/
-    /**** koffiesections ****/
+    /**** koffiesections ****/  /* alle koffies */
     /************************/
     main > article > section:nth-of-type(n+3):nth-of-type(-n+13) {
-        flex: 1 1 calc(50% - 1rem); /* standaard breedte 50% minus gap */
+        flex: 1 1 calc(50% - 1rem);   /* standaard breedte 50% minus gap */
         max-width: calc(45% - 1rem);
     }
 
-    /* Optioneel: afbeeldingen binnen de secties netjes laten schalen */
     main > article > section:nth-of-type(n+3):nth-of-type(-n+13) img {
         width: 100%;
         height: auto;
@@ -845,28 +858,33 @@ main > article > section:nth-of-type(18) article {
         padding: 1rem 2rem;
     }
 
-    /* Sectie 13 nog steeds volledig onderaan */
     main > article > section:nth-of-type(13) {
         flex: 1 1 100%;
         max-width: 100%;
     }
     
     /************************/  /************************************************************************/
-    /****** 14e sectie ******/
+    /****** 14e sectie ******/  /* hoe maak je de perfecte kop koffie? */
     /************************/
+    main > article > section:nth-of-type(14) {
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin-right: 5rem;
+    }
+    
     main > article > section:nth-of-type(14) h2 {
         font-size: 1.6rem;
     }
 
     main > article > section:nth-of-type(14) p {
-        font-size: 1rem;
+        font-size: 1.1rem;
         max-width: 100%;
         line-height: 1.35rem;
         margin-top: 1.5rem;
     }
 
     /************************/  /************************************************************************/
-    /****** 15e sectie ******/
+    /****** 15e sectie ******/  /* koffie pers */
     /************************/
     main > article > section:nth-of-type(15) h3 {
         font-size: 1.1rem;
@@ -884,7 +902,7 @@ main > article > section:nth-of-type(18) article {
     }
 
     /************************/  /************************************************************************/
-    /****** 16e sectie ******/
+    /****** 16e sectie ******/  /* overgieten */
     /************************/
     main > article > section:nth-of-type(16) h3 {
         font-size: 1.1rem;
@@ -902,7 +920,7 @@ main > article > section:nth-of-type(18) article {
     }
 
     /************************/  /************************************************************************/
-    /****** 17e sectie ******/
+    /****** 17e sectie ******/  /* ijskoud overgieten */
     /************************/
     main > article > section:nth-of-type(17) h3 {
         font-size: 1.1rem;
@@ -920,7 +938,7 @@ main > article > section:nth-of-type(18) article {
     }
 
     /************************/  /************************************************************************/
-    /****** 18e sectie ******/
+    /****** 18e sectie ******/  /* koffiebrouwer */
     /************************/
     main > article > section:nth-of-type(18) h3 {
         font-size: 1.1rem;
@@ -936,7 +954,4 @@ main > article > section:nth-of-type(18) article {
         width: 100%;       
         height: 100px;
     }
-
-
-
 }

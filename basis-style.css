@@ -49,7 +49,7 @@
 body {
 	font-family: var(--font-body);
 	color: var(--tekst-hoofd);
-	padding-bottom: 75px;     /* zodat je de onderkant van de footer kan zien, anders zie je die niet */
+	padding-bottom: 75px;  /* zodat je de onderkant van de footer kan zien, anders zie je die niet */
 }
 
 
@@ -75,22 +75,22 @@ header svg {
 /* Sticky footer navigatie */  
 /***************************/
 nav[aria-label="Snelle navigatie"] {
-    position: fixed;       /* blijft onderaan het scherm */
+    position: fixed;  /* blijft onderaan het scherm */
     bottom: 0;
     left: 0;
-    width: 100%;           /* neemt hele breedte van het scherm */
+    width: 100%;  /* neemt hele breedte van het scherm */
     background-color: var(--achtergrond-home);
-    border-top: 1px solid #eee; /* subtiel lijntje boven de footer */
-    padding: 0.5rem 0;     /* wat ruimte boven en onder */
-    box-shadow: 0 -2px 5px rgba(0,0,0,0.1); /* lichte schaduw boven */
-    z-index: 1000;         /* boven andere content */
+    border-top: 1px solid #eee;  /* subtiel lijntje boven de footer */
+    padding: 0.5rem 0;  /* wat ruimte boven en onder */
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);  /* lichte schaduw boven */
+    z-index: 1000;  /* boven andere content */
 }
 
 /* De ul-items naast elkaar */
 nav[aria-label="Snelle navigatie"] ul {
-    display: flex;           /* nu staan de li’s naast elkaar */
-    justify-content: center; /* in het midden van de footer */
-    gap: 5rem;               /* ruimte tussen items */
+    display: flex;  /* nu staan de li’s naast elkaar */
+    justify-content: center;  /* in het midden van de footer */
+    gap: 5rem;  /* ruimte tussen items */
     list-style: none;
     padding: 0;
     margin: 0;
@@ -99,8 +99,8 @@ nav[aria-label="Snelle navigatie"] ul {
 /* Links in footer */
 nav[aria-label="Snelle navigatie"] a {
     display: flex;
-    flex-direction: column; /* icoon boven tekst */
-    align-items: center;    /* alles in het midden */
+    flex-direction: column;  /* icoon boven tekst */
+    align-items: center;  /* alles in het midden */
     text-decoration: none;
     color: var(--tekst-hoofd);
     font-size: 0.90rem;
@@ -110,11 +110,11 @@ nav[aria-label="Snelle navigatie"] a {
 nav[aria-label="Snelle navigatie"] svg {
     width: 25px;
     height: 25px;
-    margin-bottom: 0.25rem; /* ruimte tussen icoon en tekst */
+    margin-bottom: 0.25rem;  /* ruimte tussen icoon en tekst */
 }
 
 nav[aria-label="Snelle navigatie"] a:hover {
-    color: var(--starbucks-kenmerk); /* bijvoorbeeld groen bij hover */
+    color: var(--starbucks-kenmerk);  /* bijvoorbeeld groen bij hover */
 }
 
 
@@ -247,7 +247,7 @@ button {
 	cursor: pointer;
 	display: flex;
 	flex-direction: column;
-	gap: 5px; 			/* de ruimte tussen de streepjes */
+	gap: 5px;  /* de ruimte tussen de streepjes */
 	padding: 0.5rem;
 }
 
@@ -336,7 +336,7 @@ header nav:first-of-type details summary::after {
 	/******* de header *******/
 	/*************************/	
 	header > button {     
-		display: none;             /* verbergt het hamburger menu knop */
+		display: none;  /* verbergt het hamburger menu knop */
 	}
 
 	header {
@@ -353,7 +353,7 @@ header nav:first-of-type details summary::after {
 	header nav:first-of-type {
 		position: static;
 		translate: none;
-    	display: flex;              /* belangrijkste: laat de twee <ul> naast elkaar staan */
+    	display: flex;   /* belangrijkste: laat de twee <ul> naast elkaar staan */
    	 	align-items: center;   
     	gap: 1rem;              
     	width: 100%;
@@ -366,7 +366,7 @@ header nav:first-of-type details summary::after {
     	display: flex;           
     	flex-direction: row;
 		margin-left: 4.5rem; 
-    	gap: 2rem;                 /* ruimte tussen de links */
+    	gap: 2rem;  /* ruimte tussen de links */
     	align-items: center;      
   	}
 
@@ -397,9 +397,9 @@ header nav:first-of-type details summary::after {
 	
 	header nav:first-of-type details ul {
     	position: absolute;
-    	margin-top: 0.4rem;         /* kleine ruimte onder summary */
+    	margin-top: 0.4rem;  /* kleine ruimte onder summary */
     	background: var(--achtergrond-home);
-    	padding: 0.6rem;            /* binnenruimte dropdown */
+    	padding: 0.6rem;  /* binnenruimte dropdown */
     	border: 1px solid rgba(0,0,0,0.06);
     	border-radius: 4px;
     	box-shadow: 0 8px 20px rgba(0,0,0,0.08);
@@ -407,20 +407,19 @@ header nav:first-of-type details summary::after {
     	flex-direction: column;
     	gap: 0.25rem;
     	z-index: 2000;
-    	min-width: max-content;     /* dropdown past zich aan aan inhoud */
+    	min-width: max-content;  /* dropdown past zich aan aan inhoud */
  	}
 	
-	/* sticky footer verbergen voor groot scherem */
+	/*************************/  /*******************************************************************/
+	/***** sticky footer *****/  /* sticky footer verbergen voor groot scherem */
+	/*************************/	
 	nav[aria-label="Snelle navigatie"] {
 		display: none;
 	}
-}
 
-
-/*************************/  /*******************************************************************/
-/******* de footer *******/
-/*************************/	
-@media (min-width: 48em) {
+ 	/*************************/  /*******************************************************************/
+	/******* de footer *******/
+	/*************************/	
 	footer {
 		display: flex;
 		flex-direction: row;
@@ -475,7 +474,7 @@ header nav:first-of-type details summary::after {
 	}
 
 	footer details summary::after,
-	footer details[open] summary::after {    /* maakt de pijltjes onzichtbaar */
+	footer details[open] summary::after {  /* maakt de pijltjes onzichtbaar */
     	visibility: hidden;
 	}
 

@@ -4,14 +4,14 @@ body {
 }
 
 /************************/  /************************************************************************/
-/****** herosectie ******/  
+/****** herosectie ******/  /* bovenste sectie van de pagina */
 /************************/
 main > section:first-of-type {
 	background-color: var(--starbucks-kenmerk);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: 1.5rem;     /* ruimte tussen elk onderdeel */
+	gap: 1.5rem;  /* ruimte tussen elk onderdeel */
 }
 
 main > section:first-of-type h1 {
@@ -25,7 +25,7 @@ main > section:first-of-type h1 {
 
 main > section:first-of-type a {
 	display: inline-block;
-	padding: 0.9rem 6rem;     /* de witte achtergrond */
+	padding: 0.9rem 6rem;  /* de witte achtergrond */
 	background-color: var(--achtergrond-home);
 	color: var(--tekst-hoofd);
 	text-decoration: none;
@@ -41,7 +41,7 @@ main > section:first-of-type img {
 
 
 /************************/  /************************************************************************/
-/**** de 2de sectie *****/  
+/**** de 2de sectie *****/  /* Starbucks delivers */
 /************************/
 main > section:nth-of-type(2) {
 	padding-bottom: 2rem;
@@ -92,7 +92,7 @@ main > section:nth-of-type(2) a {
 
 
 /************************/  /************************************************************************/
-/**** de 3de sectie *****/  
+/**** de 3de sectie *****/  /* embracing sustainability */
 /************************/
 main > section:nth-of-type(3) {
 	padding-bottom: 2rem;
@@ -145,7 +145,7 @@ main > section:nth-of-type(3) a {
 
 
 /************************/  /************************************************************************/
-/**** de 4de sectie *****/  
+/**** de 4de sectie *****/  /* starbucks verklaringen */
 /************************/
 main > section:nth-of-type(4) {
 	padding-bottom: 2rem;
@@ -196,7 +196,7 @@ main > section:nth-of-type(4) a {
 
 
 /************************/  /************************************************************************/
-/**** de 5de sectie *****/  
+/**** de 5de sectie *****/  /* over ons */
 /************************/
 main > section:nth-of-type(5) {
 	padding-bottom: 2rem;
@@ -249,7 +249,7 @@ main > section:nth-of-type(5) a {
 
 
 /************************/  /************************************************************************/
-/**** de 6de sectie *****/  
+/**** de 6de sectie *****/  /* starbucks bezorgd */
 /************************/
 main > section:nth-of-type(6) {
 	padding-bottom: 2rem;
@@ -300,7 +300,7 @@ main > section:nth-of-type(6) a {
 
 
 /************************/  /************************************************************************/
-/**** de 7de sectie *****/  
+/**** de 7de sectie *****/  /* vind een winkel */
 /************************/
 main > section:nth-of-type(7) {
 	padding-bottom: 2rem;
@@ -358,7 +358,7 @@ main > section:nth-of-type(7) a {
 /************************/
 @media (min-width: 48em) {
 	/************************/  /************************************************************************/
-	/****** herosectie ******/  
+	/****** herosectie ******/  /* bovenste sectie van de pagina */
 	/************************/
 	main > section:first-of-type {
 		display: flex;
@@ -386,7 +386,7 @@ main > section:nth-of-type(7) a {
 	}
 
 	main > section:first-of-type a {
-		padding: 1rem 3rem;
+		padding: 1rem 2rem;
 		font-size: 1rem;
 		background-color: var(--achtergrond-home);
 		color: var(--tekst-hoofd);
@@ -404,26 +404,25 @@ main > section:nth-of-type(7) a {
 	}
 
 	/************************/  /************************************************************************/
-	/***** sectie 23456 *****/  
+	/***** sectie 23456 *****/  /* de secties 2-3-4-5-6 naast elkaar */
 	/************************/
-   	main {
-    	margin-top: 2rem; /* witruimte onder hero */
+   	main { 
+    	margin-top: 2rem;  /* witruimte onder hero */
 		max-width: 1132px;
 		margin-left: auto;
 		margin-right: auto;
   	}
 
- 	/* Alleen secties 2 t/m 6 naast elkaar zetten */
  	main > section:nth-of-type(n+2):nth-of-type(-n+6) {
-		margin-top: 2rem; /* witruimte onder hero */
+		margin-top: 2rem;  /* witruimte onder hero */
 		max-width: 1132px;
 		margin-left: auto;
 		margin-right: auto;
  		display: inline-block;
     	vertical-align: top;
-    	width: calc(50% - 2rem); /* helft van de breedte minus gap */
-    	margin: 0.93rem;          /* kleine ruimte tussen de blokken */
-    	min-height: 525px;       /* gelijke hoogte */
+    	width: calc(50% - 2rem);  /* helft van de breedte minus gap */
+    	margin: 0.93rem;  /* kleine ruimte tussen de blokken */
+    	min-height: 525px;  /* gelijke hoogte van elke sectie*/
 		box-sizing: border-box;
   	}
 
@@ -433,24 +432,11 @@ main > section:nth-of-type(7) a {
     	border-radius: 8px 8px 0 0;
   	}
 
-  	/* Laatste sectie apart onderaan, hero niet aanpassen */
-  	main > section:last-of-type {
-    	max-width: 1100px;
-    	margin: 2rem auto;
-    	padding: 2rem;
-    	background-color: var(--starbucks-kenmerk);
-    	border-radius: 8px;
-    	display: flex;
-    	flex-direction: column;
-    	gap: 1rem;
-  	}
-
 	main > section:nth-of-type(n+2):nth-of-type(-n+6) h2 {
     	font-size: 1.4rem;
     	font-weight: 600;
     	margin: 1rem;
 	}
-
 	
 	main > section:nth-of-type(n+2):nth-of-type(-n+6) a {
     	display: inline-block;
@@ -468,11 +454,19 @@ main > section:nth-of-type(7) a {
 	}
 
 	/************************/  /************************************************************************/
-	/******* sectie 7  ******/  
+	/******* sectie 7  ******/  /* vind een winkel sectie onderaan de pagina */
 	/************************/
-	main > section:last-of-type {
+  	main > section:last-of-type {
+    	max-width: 1100px;
+    	margin: 2rem auto;
+    	padding: 2rem;
+    	background-color: var(--starbucks-kenmerk);
+    	border-radius: 8px;
+    	display: flex;
+    	flex-direction: column;
+    	gap: 1rem;
 		margin-bottom: 4.5rem;
-	}
+  	}
 
 	main > section:last-of-type iframe {
 		margin-left: auto;
@@ -503,5 +497,4 @@ main > section:nth-of-type(7) a {
 		margin-top: 14rem;
 		padding: 1rem 1.3rem;
 	}
-
 }

@@ -23,7 +23,6 @@
 	--tekst-subtiel: #ffffff;
 	--tekst-informatie: #6d6d6d;
 	--tekst-footer: #9b9b9b;
-	--koffie-kleur: #362415;
 	--font-body: 'Montserrat', sans-serif;
 }
 
@@ -37,8 +36,7 @@
 	--tekst-hoofd: #ffffff;      
 	--tekst-subtiel: #ffffff;       
 	--tekst-informatie: #ffffff;
-	--tekst-footer: #9b9b9b;
-	--koffie-kleur: #d1b49c;        
+	--tekst-footer: #9b9b9b;    
 	}
 }
 
@@ -204,7 +202,7 @@ footer details ul li a {
 }
 
 footer details ul li a:hover {
-	color: var(--koffie-kleur);
+	color: var(--tekst-subtiel);
 }
 
 /* de laatste 3 woorden onder aan de site */
@@ -217,16 +215,16 @@ footer nav ul {
 	margin: 0;
 }
 
- footer nav ul li a {
+footer nav ul li a {
 	text-decoration: none;
 	color: var(--tekst-footer);
 	font-size: 0.8rem;
 	font-weight: 600;
 }
 
- footer nav ul li a:hover {
-	color: var(--koffie-kleur);
- }
+footer nav ul li a:hover {
+	color: var(--tekst-subtiel);
+}
 
 /* de icoontjes van apps */ 
 footer > article > section:last-of-type {    
@@ -264,7 +262,7 @@ header nav:first-of-type {
 	position: fixed;
 	left: 0;
 	right: 0;
-	top: 5rem;
+	top: 5.2rem;
 	bottom: 0;
 	translate: -100% 0%;
 	transition: translate .3s;

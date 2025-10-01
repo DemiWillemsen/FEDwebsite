@@ -37,14 +37,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je opdracht:
   https://www.starbucks.nl/nl
+  De home-pagina & OnzeKoffies-pagina
   
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home pagina 
-  <img src="readme-images/homepagina-starbucks.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/smallscreen-homepagina.png" width="375px" alt="Screenshot van de homepagina op smallscreen">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Bezorg pagina 
-  <img src="readme-images/bezorg-pagina.png" width="375px" alt="omschrijving van de pagina">
+  Onze koffies pagina 
+  <img src="readme-images/smallscreen-onzekoffies.png" width="375px" alt="Screenshot van de onze koffies pagina op smallscreen">
  
 </details>
 

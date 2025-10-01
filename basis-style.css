@@ -259,7 +259,6 @@ button > span {
 	border-radius: 1px;
 }
 
-
 /* overgenomen van opdracht */
 header nav:first-of-type {
 	position: fixed;
@@ -341,8 +340,10 @@ header nav:first-of-type details summary::after {
 
 	header {
 		padding-left: 2.5rem;
-		padding-right: 3.5rem;
+		padding-right: 7rem;
 		position: sticky;
+		top: 0;
+		z-index: 1000;
 	}
 
 	header svg {
@@ -369,6 +370,10 @@ header nav:first-of-type details summary::after {
     	gap: 2rem;  /* ruimte tussen de links */
     	align-items: center;      
   	}
+    
+	header nav:first-of-type ul li a:hover {
+		color: var(--starbucks-kenmerk);
+	}
 
   	header nav:first-of-type ul:first-of-type {
     	flex: 1;                    
@@ -382,7 +387,6 @@ header nav:first-of-type details summary::after {
 
 	header nav:first-of-type ul:last-of-type {
     	justify-content: flex-end; 
-		margin-right: 2rem;
 		padding-right: 2rem;
  	}
  
@@ -392,24 +396,29 @@ header nav:first-of-type details summary::after {
 		align-items: center;
 		gap: 0.3rem;		
 		font-size: 0.85rem;
-		font-weight: 500;
+		font-weight: 550;
 	}
 	
 	header nav:first-of-type details ul {
     	position: absolute;
-    	margin-top: 0.4rem;  /* kleine ruimte onder summary */
+    	margin-top: 0.5rem;  /* kleine ruimte onder summary */
     	background: var(--achtergrond-home);
-    	padding: 0.6rem;  /* binnenruimte dropdown */
+    	padding: 0.7rem;  /* binnenruimte dropdown */
     	border: 1px solid rgba(0,0,0,0.06);
     	border-radius: 4px;
     	box-shadow: 0 8px 20px rgba(0,0,0,0.08);
     	display: flex;
     	flex-direction: column;
     	gap: 0.25rem;
-    	z-index: 2000;
-    	min-width: max-content;  /* dropdown past zich aan aan inhoud */
+    	min-width: 10%;  /* dropdown past zich aan aan inhoud */
  	}
-	
+
+	header nav:first-of-type ul:last-of-type svg {
+    	width: 20px;   /* pas grootte aan naar wens */
+    	height: 20px;
+		margin-bottom: 1rem;
+	}
+
 	/*************************/  /*******************************************************************/
 	/***** sticky footer *****/  /* sticky footer verbergen voor groot scherem */
 	/*************************/	

@@ -33,7 +33,7 @@ main > section:first-of-type::after {
     left: 0;
     right: 0;
     bottom: 0;
-    height: 400px;  /* hoogte van de schaduw */
+    height: 700px;  /* hoogte van de schaduw */
     background: linear-gradient(to top, rgba(30, 44, 30, 0.9), transparent);
     pointer-events: none;   /* zorgt dat het niet klikbaar is */
     z-index: -1;  /* onder de tekst en knoppen, en boven de afbeelding */
@@ -777,7 +777,7 @@ main > article > section:nth-of-type(18) article {
     /************************/
     main > section:first-of-type {
         position: sticky;
-        top: 0;                     
+        top: 6.3rem;                     
         width: 34%;                
         min-height: 100vh;        
         padding: 2rem;
@@ -789,6 +789,21 @@ main > article > section:nth-of-type(18) article {
         width: 100%;
         height: auto;              
         object-fit: cover;        
+    }
+
+    main > section:first-of-type h1 {
+        font-size: 1.5rem;
+    }
+
+    main > section:first-of-type h1,
+    main > section:first-of-type a {
+        margin-bottom: 7rem;
+        margin-left: 4rem;
+    }
+
+    main > section:first-of-type a {
+        padding: 0.9rem 3rem;
+        max-width: 70%;
     }
 
     main > article {
@@ -852,6 +867,11 @@ main > article > section:nth-of-type(18) article {
         height: auto;
         display: block;
         border-radius: 8px;
+    }
+
+    main > article > section:nth-of-type(n+3):nth-of-type(-n+13) h2 {
+        font-size: 1.5rem;
+        margin-top: 1.2rem;
     }
 
     main > article > section:nth-of-type(n+3):nth-of-type(-n+13) a {

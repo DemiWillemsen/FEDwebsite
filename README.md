@@ -299,7 +299,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   5. Voor de details in de footer heb ik via deze website geleerd wat ik moest doen in JS om ervoor te zorgen dat de details standaard open staan op groot scherm, zodat het responsive goed werkt. dit is de link: https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia
   6. Om elementen naast elkaar te krijgen heb ik via deze bron informatie opgezocht: https://developer.mozilla.org/en-US/docs/Web/CSS/flex . deze informatie heb ik vooral toegepast op de onze koffies pagina, want daar moesten de koffies naast elkaar komen te staan, en ik kwam er zelf echt niet uit hoe ik dat moest doen.
   7. Om van 3 streepjes, een kruisje te maken voor mijn hamburgermenu heb ik via deze bron informatie opgehaald: https://codepen.io/james2doyle/pen/edNoPe en via deze website: https://codepen.io/shooft/pen/JjQLVeB
-  Over het algemeen heb ik op deze pagina's het meeste informatie opgedaan:
+  - Over het algemeen heb ik op deze pagina's het meeste informatie opgedaan:
   1. https://developer.mozilla.org/en-US/  (aantal dingen van overgenomen en informatie opgedaan)
   2. https://codepen.io/your-work  (en dan voornamelijk veel oefeningen van DLO bekeken, en sommige geprobeerd.)
   3. https://www.w3schools.com/css/default.asp  (voornamelijk informatie opgedaan)

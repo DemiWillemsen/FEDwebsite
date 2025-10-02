@@ -257,10 +257,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
-  ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  ### Dit was lastig/Is niet gelukt:
+  - De inhoud van m'n hamburgermenu zo stijlen dat het klopt, en lijkt op het hamburgermenu van de officiele website. (screenshot bijgevoegd van het hamburgermenu op de officiele website van starbucks). Ik vond het erg lastig om dit op de juiste manier te stijlen zonder dat ik rare dingen ging toevoegen in mijn code.
+  <img src="readme-images/hamburgermenu-starbuckssite.png" width="375px" alt="hamburgermenu van de officiele website">
+
+  - Mijn hamburgermenu vastzetten. Nu heb je dus dat als je scrollt, je de homepagina ziet verschijnen aan de bovenkant.
+
+  - Het streepje weghalen in de footer op desktop. Er staat daar namelijk nu een streepjes die ze op de officiele website van starbucks niet hebben staan daar. Ook al staat er geen code voor dat streepje in mijn @media voor het responsive maken. Dus hij zou er voor mijn gevoel niet moeten staan maar hij staat er wel. (Screenshot bijgevoegd van officiele site en mijn site)
+  <img src="readme-images/footer-starbuckssite.png" width="375px" alt="footer van de starbucks website">
+  <img src="readme-images/footer-streep-dessktop.png" width="375px" alt="footer van mijn website">
+
+  - De icoontjes in de footer hetzelfde maken als op de officiele pagina. Op mijn pagina zijn de icoontjes gevuld, en ik kreeg het niet voor elkaar om alleen de outline te krijgen, en om hem dan gevuld te hebben als je op de homepagina bent. (Screenshots bijgevoegd van de officiele website en mijn website)
+  <img src="readme-images/sticky-footer-starbucks.png" width="375px" alt="sticky footer van de officiele website">
+  <img src="readme-images/sticky-footer-mijn.png" width="375px" alt="sticky footer van mijn website">
+
 </details>
 
 

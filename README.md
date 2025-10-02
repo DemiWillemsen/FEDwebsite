@@ -186,6 +186,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   * Op mijn pagina is elke link herkenbaar als link.
   - De code van de officiele website is niet netjes/semantisch.
   * Mijn code is in zoverre wel netjes/semantisch.
+  - De officiele site had een Engels stukje op de onze koffies pagina terwijl de hele site in het Nederlands stond voor de rest.
+  * Ik heb dit veranderd en aangepast naar het Nederlands. Zodat de hele pagina gewoon in het nederlands staat en niet dat er ineens een Engels stukje tussen staat.
 
 </details>
 
@@ -297,6 +299,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   4. De details - summary heb ik gevraagd aan Sanne, en opgezocht op internet: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details
   5. Voor de details in de footer heb ik via deze website geleerd wat ik moest doen in JS om ervoor te zorgen dat de details standaard open staan op groot scherm, zodat het responsive goed werkt. dit is de link: https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia
   6. Om elementen naast elkaar te krijgen heb ik via deze bron informatie opgezocht: https://developer.mozilla.org/en-US/docs/Web/CSS/flex . deze informatie heb ik vooral toegepast op de onze koffies pagina, want daar moesten de koffies naast elkaar komen te staan, en ik kwam er zelf echt niet uit hoe ik dat moest doen.
-  7. Om van 3 streepjes, een kruisje te maken voor mijn hamburgermenu heb ik via deze bron informatie opgehaald: https://codepen.io/james2doyle/pen/edNoPe?utm_source=chatgpt.com en via deze website: https://codepen.io/shooft/pen/JjQLVeB
+  7. Om van 3 streepjes, een kruisje te maken voor mijn hamburgermenu heb ik via deze bron informatie opgehaald: https://codepen.io/james2doyle/pen/edNoPe en via deze website: https://codepen.io/shooft/pen/JjQLVeB
 
 </details>

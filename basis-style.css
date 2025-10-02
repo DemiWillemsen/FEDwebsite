@@ -9,7 +9,6 @@
   box-sizing: border-box;
 }
 
-
 /****************/  /************************************************************************************/
 /** Huisstijl ***/  
 /****************/
@@ -27,8 +26,8 @@
 }
 
 @media (prefers-color-scheme:dark) {  /* dit is voor de donkere modus */
-	:root {                           /* kleuren moeten een lichtere tint zijn van het origineel */
-	--starbucks-kenmerk: #005136;
+	:root {                           /* kleuren moeten een lichtere/donkere tint zijn van het origineel */
+	--starbucks-kenmerk: #234730;
 	--starbucks-kenmerk-transparent: color-mix(in srgb, var(--starbucks-kenmerk) 20%, transparent 80%);
 	--kenmerk-accent: #1e3932;
 	--achtergrond-home: #2e2e2e;  

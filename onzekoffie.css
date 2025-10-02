@@ -26,7 +26,7 @@ main > section:first-of-type img {
     z-index: -1;
 }
 
-/* de schaduw onder in de foto */
+/* de schaduw onder in de foto. geleerder via: https://developer.mozilla.org/en-US/docs/Web/CSS/gradient */
 main > section:first-of-type::after {
     content: "";
     position: absolute;
@@ -761,7 +761,6 @@ main > article > section:nth-of-type(18) article {
 }
 
 
-
 /************************/  /************************************************************************/
 /** responsive laptop ***/
 /************************/
@@ -855,7 +854,7 @@ main > article > section:nth-of-type(18) article {
     }
 
     /************************/  /************************************************************************/
-    /**** koffiesections ****/  /* alle koffies */
+    /**** koffiesections ****/  /* alle koffies */ /* https://developer.mozilla.org/en-US/docs/Web/CSS/flex */
     /************************/
     main > article > section:nth-of-type(n+3):nth-of-type(-n+13) {
         flex: 1 1 calc(50% - 1rem);   /* standaard breedte 50% minus gap */

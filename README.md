@@ -98,8 +98,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
   het was voornamelijk heel erg inkomen in de code. Ik ben er niet goed in, dus was het extra lastig. nadat ik eenmaal een opzetje had ging het redelijk. Wat goed ging is dat wat ik deed ik ook terug zag op mijn site, dus geen errors of iets dergelijks. wat ik lastig vind, blijft voornamelijk het netjes opstellen van een code.
 
 
@@ -120,8 +118,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   * demi: hoe kan ik de kaart op een website gebruikbaar maken, dat je kan in en uitzoomen etc.
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
   - Ik weet nu hoe ik de kaart in kan laden op mijn website. 
   - Ik weet nu dat veel websites svg gebruiken en zelf maken om icoontjes toe te passen op hun website. Dit ga ik zeker meenemen in mijn website, want starbucks maakt ook gebruik van svg icoontjes. Op die manier hoef ik niet moeilijk te doen met icoontjes zelf maken en inladen als png, want dat gaat uiteindelijk niet goed werken.
   - Ik weet nu dat als je wilt dat de screenreader een woord op z'n engels uitspreekt, dat je er lang:"en" aan toe kan voegen. Op die manier word het woord op zijn Engels uitgesproken.
@@ -139,8 +135,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
   Ik ben eigenlijk vooral bezig geweest met mijn HTML, allebei de pagina's. Ik wilde eerst die beide helemaal goed hebben voordat ik begon met mijn CSS. Want in mijn hoofd vond ik het fijner om eerst mijn HTML helemaal te begrijpen ipv HTML en dan weer CSS en dan weer terug naar HTML. Nu heb ik beide pagina's zo goed als af, alle inhoud wat op de officiele Starbucks website staat, staat nu ook in mijn HTML, dus nu zou ik aan de slag kunnen met CSS en JS. Wat ik lastig vond is hoe ik alles netjes opschrijf, dus als ik bijvoorbeeld een svg van de Starbucks website afhaalde, hoe ik dat dan netjes in mijn code kan verwerken, na veel proberen en vragen ben ik er uitgekomen gelukkig. Nu hoop ik, en denk ik, dat mijn HTML helemaal netjes is. Dat is dan ook de vraag die ik wil gaan stellen tijdens dit voortgangsgesprek. Zodra ik weet dat mijn HTML helemaal netjes is ga ik aan de slag met CSS en JS.
 
   ### Agenda voor meeting
@@ -160,8 +154,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   * demi: Is mijn HTML netjes in elkaar gezet?
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
   - Ik weet nu dat mijn html goed in elkaar is gezet, en dat ik verder kan gaan met CSS opbouwen
   - Ik weet nu dat het handig is om de website helemaal te verbeteren, op de onze koffies pagina van starbucks staat alles in principe in het nederlands tot je onder aan de pagina aankomt bij het stappenplan om zelf een koffie te maken, daar staat alles in het engels. Dus dat ga ik verbeteren naar het Nederlands zodat de hele pagina gewoon in het Nederlands staat. Dit stond eerst in het Engels in mijn html, omdat ik het exact had overgenomen van de website.
   - Ook heb ik tips gekregen van de studentassistenten om te werken aan de h3 die onzichtbaar moet zijn in mijn footer. ik had daar eerst nog helemaal geen H-element, maar dat moet er wel in staan. Dus daar ga ik mee aan de slag.
@@ -180,6 +172,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+  - De officiele website van Starbucks maakt (te) veel gebruik van div's en classes in hun HTML code.
+  * In mijn HTML code wordt geen gebruik gemaakt van div's of classes. De classes die ik nodig zou hebben, heb ik toegevoegd in CSS, en met JS opgelost.
+  - De officiele website heeft geen dark mode functie.
+  * Mijn website heeft wel een dark mode functie.
+  - De officiele website heeft niet op elke pagina een H1, voornamelijk veel h2's.
+  * De pagina's die ik heb gemaakt hebben een H1.
+  - Op de officiele website heeft niet elke afbeelding een alt tekst.
+  * Op mijn pagina heeft elke afbeelding een alt tekst.
+  - De officiele website maakt geen gebruik van a-elementen voor links.
+  * Elke link op mijn pagina heeft een a-element.
+  - Op de officiele pagina is niet elke link herkenbaar als link.
+  * Op mijn pagina is elke link herkenbaar als link.
+  - De code van de officiele website is niet netjes/semantisch.
+  * Mijn code is in zoverre wel netjes/semantisch.
+
 </details>
 
 
@@ -192,8 +199,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
   Wat ik lastig vond was een begin maken aan mijn CSS, maar nadat ik de oefeningen goed had doorgenomen kon ik een start maken. Nadat ik eenmaal de start had gemaakt verliep het allemaal wel soepel, hier en daar wat probleempjes maar na vragen aan de docent of zelf nog een keer goed kijken ging dat eigenlijk wel goed. Dus uiteindelijk zijn beide pagina's qua stijl helemaal goed. Waar ik nu nog tegen aan loop is dat ik het dus nog responsive moet maken, alleen dat vind ik nog wel erg lastig, dus daar moet ik nog even goed onderzoek naar doen en vragen hoe dat het beste kan.
   Wat dus wel goed ging was het bezig zijn met CSS (naast het responsive maken), dat heb ik wel redelijk onder de knie nu. Wat ik wel nog steeds lastig blijg vinden is JS, ik vind het moeilijk om daar mee aan de slag te gaan, omdat ik daar het minste van weet (maar dat gaat uiteindelijk ook wel goed komen).
 
@@ -214,8 +219,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   * demi: Hoe maak ik mijn website op de beste manier responsive, en ziet mijn css er goed uit?
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
   - Ik weet nu hoe ik mijn website responsive kan gaan maken.
   - Ik weet nu dat ik de tekst in mijn footer een iets lichtere kleur grijs moet geven, en een witte hover moet geven.
   - Ik weet nu dat mijn HTML en CSS code er prima uitzien.
@@ -233,8 +236,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  - Homepagina aanzicht en het hamburgermenu dicht en open:
+  <img src="readme-images/hamburgermenu-dicht.png" width="375px" alt="homepagina en hamburgermenu dicht">
+  <img src="readme-images/hamburgermenu-open.png" width="375px" alt="hamburgermenu open geklapt">
 
+  - Homepagina responsive/desktop:
+  <img src="readme-images/responsive-desktop.png" width="375px" alt="homepagina responsive ">
+
+  - De footer op smallscreen en responsive/desktop:
+  <img src="readme-images/footer-smallscreen.png" width="375px" alt="de footer op smallscreen">
+  <img src="readme-images/footer-desktop.png" width="375px" alt="de footer op desktop">
+
+  - De soorten koffies op smallscreen en responsive/desktop:
+  <img src="readme-images/koffies-smallscreen.png" width="375px" alt="de soorten koffies op smallscreen">
+  <img src="readme-images/koffies-desktop.png" width="375px" alt="de soorten koffies naast elkaar op desktop">
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
@@ -267,6 +282,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   4. De details - summary heb ik gevraagd aan Sanne, en opgezocht op internet: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details
   5. Voor de details in de footer heb ik via deze website geleerd wat ik moest doen in JS om ervoor te zorgen dat de details standaard open staan op groot scherm, zodat het responsive goed werkt. dit is de link: https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia
   6. Om elementen naast elkaar te krijgen heb ik via deze bron informatie opgezocht: https://developer.mozilla.org/en-US/docs/Web/CSS/flex . deze informatie heb ik vooral toegepast op de onze koffies pagina, want daar moesten de koffies naast elkaar komen te staan, en ik kwam er zelf echt niet uit hoe ik dat moest doen.
-  7. Om van 3 streepjes, een kruisje te maken voor mijn hamburgermenu heb ik via deze bron informatie opgehaald: https://codepen.io/james2doyle/pen/edNoPe?utm_source=chatgpt.com
+  7. Om van 3 streepjes, een kruisje te maken voor mijn hamburgermenu heb ik via deze bron informatie opgehaald: https://codepen.io/james2doyle/pen/edNoPe?utm_source=chatgpt.com en via deze website: https://codepen.io/shooft/pen/JjQLVeB
 
 </details>

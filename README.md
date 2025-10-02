@@ -252,11 +252,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/koffies-desktop.png" width="375px" alt="de soorten koffies naast elkaar op desktop">
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  - Het bouwen van mijn HTML. Ik had even een opstart probleempje, omdat als ik iets heel moeilijk vind stel ik het uit. Uiteindelijk toen ik eenmaal bezig was ging dit helemaal prima, aantal keer feedback gevraagd aan de student-assistenten en die waren helemaal tevreden over mijn HTML code. En heb ik dus ook geleerd hoe ik een nette/semantische code schrijf.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  - Het spelen met CSS code. Vanuit de oefeningen ging ik kijken wat, wat deed. En vanuit daar kon ik aan de slag gaan met mijn eigen CSS code, het was heel veel spelen en kijken wat werkt, en veel tegenslagen, maar uiteindelijk kreeg ik het toch een soort van voor elkaar. Uiteindelijk wist ik ook wat iets deed, en ging het code schrijven steeds sneller. Hier heb ik ook heel veel van geleerd.
 
+  - Wat ook goed ging was het responsive maken van mijn website. Ik had nagevraagd hoe ik het beste kan beginnen met mijn website responsive maken, en dat was door eigenlijk een hele nieuwe code schrijven voor desktop formaat. Zodra ik dat wist ging ik meteen aan de slag met de @media query toevoegen in mijn CSS stylesheets, en ging ik een code schrijven wat er voor zorgde dat alles op groot scherm zou kloppen. Maar ook in de @media heb ik weer veel lopen spelen met mijn code, zodat de elementen op de juiste plekken stonden. Ik ben me ervan bewust dat het af en toe niet op de juiste manier is gecodeerd.
 
+  Over het algemeen heb ik gewoon veel beter leren coderen. Ik heb ook een schriftje bijgehouden met code elementen wat ik heb gebruikt waarvan ik niet zo goed wist wat het deed, zodat ik deze terug kon kijken en kon zien wat het ook alweer deed. Ik weet dus nu veel beter hoe ik een semantische HTML code schrijf. Ook heb ik dus geleerd hoe je een website responsive kan maken, ik vond dit interessant omdat ik hier eerder nog nooit wat mee gedaan had. Ik wil helaas(/gelukkig) niks doen in dit vakgebied, maar het was wel interessant om hier dingen over te leren. Opzich heb ik het redelijk goed op kunnen pakken, na mijn moeizame start.
 
   ### Dit was lastig/Is niet gelukt:
   - De inhoud van m'n hamburgermenu zo stijlen dat het klopt, en lijkt op het hamburgermenu van de officiele website. (screenshot bijgevoegd van het hamburgermenu op de officiele website van starbucks). Ik vond het erg lastig om dit op de juiste manier te stijlen zonder dat ik rare dingen ging toevoegen in mijn code.
@@ -271,6 +273,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - De icoontjes in de footer hetzelfde maken als op de officiele pagina. Op mijn pagina zijn de icoontjes gevuld, en ik kreeg het niet voor elkaar om alleen de outline te krijgen, en om hem dan gevuld te hebben als je op de homepagina bent. (Screenshots bijgevoegd van de officiele website en mijn website)
   <img src="readme-images/sticky-footer-starbucks.png" width="375px" alt="sticky footer van de officiele website">
   <img src="readme-images/sticky-footer-mijn.png" width="375px" alt="sticky footer van mijn website">
+
+  - Wat ik wel nog altijd lastig blijf vinden is het werken met JavaScript. Ik vond het heel moeilijk om te begrijpen wat ik hier deed en wat iets deed. Tijdens de les, met de oefening van de hamburgermenu, ging het wel prima. Terwijl ik daarmee bezig was, tijdens de les, snapte ik wel wat ik deed. Maar ik heb het niet zo goed kunnen opslaan, omdat ik het alsnog heel moeilijk vond wat er gebeurde.
 
 </details>
 
